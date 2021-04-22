@@ -1,0 +1,330 @@
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 8.3.1 20190703 (release) [gcc-8-branch revision 273027]
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_84cd6/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84cd6.dir\build.make CMakeFiles/cmTC_84cd6.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84cd6.dir/testCCompiler.c.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe"    -o CMakeFiles\cmTC_84cd6.dir\testCCompiler.c.obj   -c E:\GitProject\stm32\mpu6050Test\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C static library libcmTC_84cd6.a
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_84cd6.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_84cd6.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_84cd6.a  CMakeFiles/cmTC_84cd6.dir/testCCompiler.c.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_84cd6.a
+mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_3f696/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3f696.dir\build.make CMakeFiles/cmTC_3f696.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f696.dir/CMakeCCompilerABI.c.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -quiet -v -iprefix e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj -version -o C:\TEMP\ccCCmZmf.s
+GNU C17 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include"
+ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib/gcc/arm-none-eabi/8.3.1/../../../../include"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include-fixed"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e849902a6aacc553fd145989da8a517b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj C:\TEMP\ccCCmZmf.s
+GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703
+COMPILER_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C static library libcmTC_3f696.a
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_3f696.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3f696.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_3f696.a  CMakeFiles/cmTC_3f696.dir/CMakeCCompilerABI.c.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_3f696.a
+mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include]
+  implicit include dirs: [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_3f696/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3f696.dir\build.make CMakeFiles/cmTC_3f696.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3f696.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1.exe -quiet -v -iprefix e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj -version -o C:\TEMP\ccCCmZmf.s]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include"]
+  ignore line: [ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib/gcc/arm-none-eabi/8.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e849902a6aacc553fd145989da8a517b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj C:\TEMP\ccCCmZmf.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703]
+  ignore line: [COMPILER_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_3f696.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_3f696.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_3f696.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3f696.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_3f696.a  CMakeFiles/cmTC_3f696.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_3f696.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_1a4f4/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1a4f4.dir\build.make CMakeFiles/cmTC_1a4f4.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a4f4.dir/testCXXCompiler.cxx.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-g++.exe"     -o CMakeFiles\cmTC_1a4f4.dir\testCXXCompiler.cxx.obj -c E:\GitProject\stm32\mpu6050Test\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX static library libcmTC_1a4f4.a
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_1a4f4.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1a4f4.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_1a4f4.a  CMakeFiles/cmTC_1a4f4.dir/testCXXCompiler.cxx.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_1a4f4.a
+mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_aa19c/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aa19c.dir\build.make CMakeFiles/cmTC_aa19c.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa19c.dir/CMakeCXXCompilerABI.cpp.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -quiet -v -iprefix e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\TEMP\ccfx18yI.s
+GNU C++14 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include"
+ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib/gcc/arm-none-eabi/8.3.1/../../../../include"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include-fixed"
+ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed
+ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 69ee3c4857777a212907aac1b1ed675c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj C:\TEMP\ccfx18yI.s
+GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703
+COMPILER_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/;e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_aa19c.a
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_aa19c.dir\cmake_clean_target.cmake
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aa19c.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_aa19c.a  CMakeFiles/cmTC_aa19c.dir/CMakeCXXCompilerABI.cpp.obj
+"E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_aa19c.a
+mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+    add: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1/arm-none-eabi]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1/backward]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/include-fixed] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+  collapse include dir [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include] ==> [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include]
+  implicit include dirs: [E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1/arm-none-eabi;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include/c++/8.3.1/backward;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/lib/gcc/arm-none-eabi/8.3.1/include-fixed;E:/Program Files (x86)/GNU Tools Arm Embedded/8 2019-q3-update/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):E:/MinGW/bin/mingw32-make.exe cmTC_aa19c/fast && E:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aa19c.dir\build.make CMakeFiles/cmTC_aa19c.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_aa19c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw --libexecdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib --infodir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/arm-none-eabi --with-libiconv-prefix=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-gmp=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpfr=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-mpc=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-isl=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-libelf=/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 8-2019-q3-update' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (GNU Tools for Arm Embedded Processors 8-2019-q3-update) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/cc1plus.exe -quiet -v -iprefix e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/ -isysroot e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\TEMP\ccfx18yI.s]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include"]
+  ignore line: [ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/tmp/jenkins/jenkins-GCC-8-build_toolchain_docker-594_20190704_1562200936/install-mingw/lib/gcc/arm-none-eabi/8.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/lib/gcc/../../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/arm-none-eabi]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include/c++/8.3.1/backward]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/include-fixed]
+  ignore line: [ e:\program files (x86)\gnu tools arm embedded\8 2019-q3-update\bin\../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 8-2019-q3-update) version 8.3.1 20190703 (release) [gcc-8-branch revision 273027] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 69ee3c4857777a212907aac1b1ed675c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj C:\TEMP\ccfx18yI.s]
+  ignore line: [GNU assembler version 2.32.0 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 8-2019-q3-update) 2.32.0.20190703]
+  ignore line: [COMPILER_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../lib/gcc/arm-none-eabi/8.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [e:/program files (x86)/gnu tools arm embedded/8 2019-q3-update/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_aa19c.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_aa19c.a]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_aa19c.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aa19c.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_aa19c.a  CMakeFiles/cmTC_aa19c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["E:\Program Files (x86)\GNU Tools Arm Embedded\8 2019-q3-update\bin\arm-none-eabi-ranlib.exe" libcmTC_aa19c.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
