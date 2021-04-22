@@ -1,3 +1,0 @@
-E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/mpu6050Test.elf.dir
-E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/GitProject/stm32/mpu6050Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
